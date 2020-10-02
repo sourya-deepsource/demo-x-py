@@ -1,5 +1,12 @@
 version = 1
 
+test_patterns = ["tests/**"]
+
+exclude_patterns = [
+    "examples/**",
+    "migrations/**"
+]
+
 [[analyzers]]
 name = "python"
 enabled = true
